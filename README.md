@@ -25,21 +25,24 @@ It’s a simple demonstration of how real-world spam filtering works — from re
 
 ---
 
-## ⚠️ Missing Folders Notice
+## Missing Folders Notice
 
-> ⚠️ **NOTE**: I didn’t attach the `spam/` and `ham/` folders because they were too damn big.
+> **NOTE**: I didn’t attach the `spam/` and `ham/` folders because they were too damn big.
 >
 > GitHub has upload size limits, and the dataset would’ve made the repo bloated.  
 > To run this locally, make sure you create your own `spam/` and `ham/` directories and populate them with raw text email files.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Install Dependencies
 
 ```bash
 pip install pandas scikit-learn
+```
+
+## Strucuture Dataset
 
 your_project/
 ├── spamorham.py
